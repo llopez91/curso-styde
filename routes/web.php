@@ -14,7 +14,7 @@
 
 Route::get('/', function () {
     return 'Home';
-});
+}); 
 
 Route::get('/usuarios', 'UserController@index');
 
