@@ -29,7 +29,9 @@ class UserController extends Controller
 
         $title = 'Listado de usuarios';
 
-        return view('users.index', compact('users', 'title'));
+        $otroArray = ['jskjadasklj','asdadsasd','asdasdad'];
+
+        return view('users.index', compact('users', 'title', 'otroArray'));
     }
 
     public function show($id)

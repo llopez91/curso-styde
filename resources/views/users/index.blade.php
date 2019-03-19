@@ -13,6 +13,12 @@
             <li>No hay usuarios registrados. </li>
         @endforelse
     </ul>
+
+    <ul>
+        @foreach($otroArray as $cosa)
+            <li>{{ $cosa }}</li>
+        @endforeach
+    </ul>
 @endsection
 
 @section('sidebar')
